@@ -291,8 +291,15 @@
 }
 }
 }
-console.log(data.university)
-console.log(data.university)
+console.log(data.university.name);
+console.log(data.university.location.city);
+console.log(data.university.faculties[0].dean.name);
+console.log(data.university.faculties[0].departments[0].courses[0].instructor.office_hours);
+console.log(data.university.faculties[0].departments[0].courses[0].schedule.room);
+console.log(data.university.faculties[0].departments[0].courses[0].enrolled_students[1].gpa);
+console.log(data.university.facilities.laboratories[0].equipment);
+console.log(data.university.faculties[0].departments[1].courses[0].prerequisites);
+
     </script>
 </body>
 </html>
